@@ -1,6 +1,8 @@
 # overview #
 * This repository contains code for the arduino-based DFRobot gamepad v2+xbee and a matching program for an arduino-based robot with an xbee.  Together, these programs enable simple remote control projects in which both the controller and vehicle are programmable as arduinos and communicate using their xbees.  This project was commissioned by the Singapore American School's robotics program to provide a hardware kit for their intro course.  The kit cost is relatively low because of the use of off-the-shelf arduino and xbee parts, about $225US for the gamepad, robot arduino, xbee shield, two 60mW xbees, and motor controller in 2015.
 
+* see [this blog post](http://larsonm.com/index.php/2016/an-arduino-based-remote-control-robot-kit/) for pictures and a bit more documentation
+
 # operating instructions #
 * With a working default system: turn on both the robot and gamepad.  The gamepad's "RX" LED (green) indicates connection status with the robot's xbee.  Connection status is updated continuously: if the robot goes out of range, the LED will go off.  If it comes back in range, it will turn back on.
 * If the gamepad has low batteries, normally the green "RX" LED will no longer stay solid
